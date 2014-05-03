@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageAPE", "MessageAPE\MessageAPE.csproj", "{2615DBCE-FD64-464D-A419-D02849B5DA79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{006FFC1C-2A27-4BB0-95A2-652E6D86A00B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebAppPublishModule.psm1 = PublishScripts\AzureWebAppPublishModule.psm1
+		PublishScripts\Publish-WebApplication.ps1 = PublishScripts\Publish-WebApplication.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{B1D52B39-DE4D-4509-9383-4BB23A2AF0D2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MessageAPE-WAWS-dev.json = PublishScripts\Configurations\MessageAPE-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSender", "MessageSender\MessageSender.csproj", "{46AC66C4-68F8-4F7D-8581-65AFD9ED69FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageAPE.Model", "MessageAPE.Model\MessageAPE.Model.csproj", "{5C3892B7-C247-41D6-BE86-C3AE5D65FA31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2615DBCE-FD64-464D-A419-D02849B5DA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2615DBCE-FD64-464D-A419-D02849B5DA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2615DBCE-FD64-464D-A419-D02849B5DA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2615DBCE-FD64-464D-A419-D02849B5DA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AC66C4-68F8-4F7D-8581-65AFD9ED69FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AC66C4-68F8-4F7D-8581-65AFD9ED69FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AC66C4-68F8-4F7D-8581-65AFD9ED69FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AC66C4-68F8-4F7D-8581-65AFD9ED69FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3892B7-C247-41D6-BE86-C3AE5D65FA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3892B7-C247-41D6-BE86-C3AE5D65FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3892B7-C247-41D6-BE86-C3AE5D65FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3892B7-C247-41D6-BE86-C3AE5D65FA31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1D52B39-DE4D-4509-9383-4BB23A2AF0D2} = {006FFC1C-2A27-4BB0-95A2-652E6D86A00B}
+	EndGlobalSection
+EndGlobal
